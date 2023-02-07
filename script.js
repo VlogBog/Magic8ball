@@ -33,7 +33,7 @@ $(document).ready(function() {
 
 
     setTimeout(function(){
-      var question = prompt("Питай да/не въпроси!");
+      var question;
       magic8Ball.askQuestion(question);
     }, 500);
 
